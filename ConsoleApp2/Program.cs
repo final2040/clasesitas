@@ -1,5 +1,5 @@
-using System;
-
+namespace ClaseCadenas;
+//Yo soy el Fu
 class Program
 {
     static void Main(string[] args)
