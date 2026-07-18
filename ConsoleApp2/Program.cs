@@ -1,4 +1,4 @@
-﻿namespace ClaseCadenas;
+namespace ClaseCadenas;
 
 class Program
 {
@@ -48,3 +48,4 @@ class Program
         return resultado;
     }
 }
+*/
