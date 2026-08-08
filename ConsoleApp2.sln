@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicios", "Ejercicios\Ejercicios.csproj", "{D5882B2A-F178-4956-B814-BDF29DC3F965}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practicas", "Practicas\Practicas.csproj", "{57B03940-2257-425B-94A2-936BD8D3106B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D5882B2A-F178-4956-B814-BDF29DC3F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5882B2A-F178-4956-B814-BDF29DC3F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5882B2A-F178-4956-B814-BDF29DC3F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B03940-2257-425B-94A2-936BD8D3106B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B03940-2257-425B-94A2-936BD8D3106B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B03940-2257-425B-94A2-936BD8D3106B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B03940-2257-425B-94A2-936BD8D3106B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
