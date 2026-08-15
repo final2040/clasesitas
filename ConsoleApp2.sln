@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicios", "Ejercicios\Ej
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practicas", "Practicas\Practicas.csproj", "{57B03940-2257-425B-94A2-936BD8D3106B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeUnidades", "ConversorDeUnidades\ConversorDeUnidades.csproj", "{57F53A07-5838-472A-AA1D-9D0B4034944F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{57B03940-2257-425B-94A2-936BD8D3106B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B03940-2257-425B-94A2-936BD8D3106B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B03940-2257-425B-94A2-936BD8D3106B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F53A07-5838-472A-AA1D-9D0B4034944F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F53A07-5838-472A-AA1D-9D0B4034944F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F53A07-5838-472A-AA1D-9D0B4034944F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F53A07-5838-472A-AA1D-9D0B4034944F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
