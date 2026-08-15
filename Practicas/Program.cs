@@ -34,29 +34,53 @@ class Program
             7. Calcular
             8. Mostrar resultado
         */
-        float cuenta;
-        float porcentajePropina;
-        int personas;
-        float propina;
-        float total;
-        float pagoPorPersona;
-        
-        Console.WriteLine("Ingresa el monto de la cuenta: ");
-        cuenta = float.Parse(Console.ReadLine());
-        
-        Console.WriteLine("Ingresa el porcentaje de propina: ");
-        porcentajePropina = float.Parse(Console.ReadLine());
-        
-        Console.WriteLine("Ingresa el numero de personas: ");
-        personas = int.Parse(Console.ReadLine());
+        float Cuenta = 0;
+        float Propina = 0;
+        int Personas = 0;
 
-        propina = cuenta * porcentajePropina / 100;
-        total = cuenta + propina;
-        pagoPorPersona = total / personas;
-      
-        Console.WriteLine("propina: $" + propina);
-        Console.WriteLine("Total: $" + total);
-        Console.WriteLine("Pago por persona: $" + pagoPorPersona);
+        while (Cuenta <= 0)
+        {
+            Console.Write("Ingresa el monto total de la cuenta: ");
+            Cuenta = float.Parse(Console.ReadLine());
+
+            if (Cuenta <= 0)
+            {
+                Console.WriteLine("La cuenta debe ser mayor que 0.");
+            }
+        }
+
+        while (Propina < 0)
+        {
+            Console.Write("Ingresa el porcentaje de propina: ");
+            Propina = float.Parse(Console.ReadLine());
+
+            if (Propina < 0)
+            {
+                Console.WriteLine("La propina no puede ser negativa.");
+            }
+        }
+
+        while (Personas <= 0)
+        {
+            Console.Write("Ingresa el número de personas: ");
+            Personas = int.Parse(Console.ReadLine());
+
+            if (Personas <= 0)
+            {
+                Console.WriteLine("El número de personas debe ser mayor que 0.");
+            }
+        }
+
+        float ValorPropina = Cuenta * Propina / 100;
+        float Total = Cuenta + ValorPropina;
+        float PorPersona = Total / Personas;
+
+        Console.WriteLine();
+        Console.WriteLine("Cuenta: " + Cuenta);
+        Console.WriteLine("Propina (" + Propina + "%): " + ValorPropina);
+        Console.WriteLine("Total: " + Total);
+        Console.WriteLine("Personas: " + Personas);
+        Console.WriteLine("Total por persona: " + PorPersona);
     }
 }
 /*
