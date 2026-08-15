@@ -41,13 +41,13 @@ class Program
         float total;
         float pagoPorPersona;
         
-        Console.Write("Ingresa el monto de la cuenta: ");
+        Console.WriteLine("Ingresa el monto de la cuenta: ");
         cuenta = float.Parse(Console.ReadLine());
         
-        Console.Write("Ingresa el porcentaje de propina: ");
+        Console.WriteLine("Ingresa el porcentaje de propina: ");
         porcentajePropina = float.Parse(Console.ReadLine());
         
-        Console.Write("Ingresa el numero de personas: ");
+        Console.WriteLine("Ingresa el numero de personas: ");
         personas = int.Parse(Console.ReadLine());
 
         propina = cuenta * porcentajePropina / 100;
