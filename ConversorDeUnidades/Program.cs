@@ -40,12 +40,13 @@ namespace ConversorDeUnidades
                         double km;
 
                         if (!double.TryParse(kmStr, out km))
-                        {
+                        { 
                             Console.WriteLine("Entrada inválida. Debe ser un número.");
                             Console.WriteLine("Presiona Enter para intentar de nuevo...");
                             Console.ReadLine();
                             continue;
-                        }
+                        } 
+                        
                         double metros = km * 1000;
                         Console.WriteLine($" {km} km = {metros} m ");
                         Console.WriteLine("Presiona Enter para continuar...");
@@ -54,54 +55,54 @@ namespace ConversorDeUnidades
 
                     case 2: // m → cm
                         Console.WriteLine("Ingresa la cantidad en metros (m): ");
-                        string mStr = Console.ReadLine();
-                        double m;
+                        string inputString = Console.ReadLine();
+                        double meters; 
 
-                        if (!double.TryParse(mStr, out m))
+                        if (!double.TryParse(inputString, out meters))
                         {
                             Console.WriteLine("Entrada inválida. Debe ser un número.");
                             Console.WriteLine("Presiona Enter para intentar de nuevo...");
                             Console.ReadLine();
                             continue;
                         }
-                        double centimetros = m * 100;
-                        Console.WriteLine($" {m} m = {centimetros} cm ");
+                        double centimetros = meters * 100;
+                        Console.WriteLine($" {meters} m = {centimetros} cm ");
                         Console.WriteLine("Presiona Enter para continuar...");
                         Console.ReadLine();
                         break;
 
                     case 3: // cm → mm
                         Console.WriteLine("Ingresa la cantidad en centimetros (cm): ");
-                        string cmStr = Console.ReadLine();
-                        double cm;
+                        string centimetersString = Console.ReadLine();
+                        double centimeters;
 
-                        if (!double.TryParse(cmStr, out cm))
+                        if (!double.TryParse(centimetersString, out centimeters))
                         {
                             Console.WriteLine("Entrada inválida. Debe ser un número.");
                             Console.WriteLine("Presiona Enter para intentar de nuevo...");
                             Console.ReadLine();
                             continue;
                         }
-                        double milimetros = cm * 10;
-                        Console.WriteLine($" {cm} cm = {milimetros} mm ");
+                        double milimetros = centimeters * 10;
+                        Console.WriteLine($" {centimeters} cm = {milimetros} mm ");
                         Console.WriteLine("Presiona Enter para continuar...");
                         Console.ReadLine();
                         break;
 
                     case 4: // m → pies
                         Console.WriteLine("Ingresa la cantidad en metros (m): ");
-                        string mtStr = Console.ReadLine();
-                        double mt;
+                        string metersString = Console.ReadLine();
+                        double metersToConvert;
 
-                        if (!double.TryParse(mtStr, out mt))
+                        if (!double.TryParse(metersString, out metersToConvert))
                         {
                             Console.WriteLine("Entrada inválida. Debe ser un número.");
                             Console.WriteLine("Presiona Enter para intentar de nuevo...");
                             Console.ReadLine();
                             continue;
                         }
-                        double pies = mt * 3.28084;
-                        Console.WriteLine($" {mt} m = {pies:F2} pies ");
+                        double pies = metersToConvert * 3.28084;
+                        Console.WriteLine($" {metersToConvert} m = {pies:F2} pies ");
                         Console.WriteLine("Presiona Enter para continuar...");
                         Console.ReadLine();
                         break;
